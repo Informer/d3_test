@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Title Page</title>
+
+		<!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- materialize CSS -->
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+		 <link rel="stylesheet" href="style.css">
+
+		 <!-- load angular -->
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.min.js"></script>
+		
+	</head>
+	<body>
+		
+		 <!-- test d3 with standard html first then convert the document so that each chart has its own directive in angular -->
+		<div class="container">
+			<h3 class="text-center">Test Graphs & d3</h3>
+			<div class="card" id="card">
+			    <div class="card-image waves-effect waves-block waves-light">
+			      <!-- D3 graphs should populate here <span></span> -->
+			      <span id="graph"></span>
+ 			    </div>
+			    <div class="card-content">
+			      <span class="card-title grey-text text-darken-4 ct"></span>
+			      <span class="card-title activator grey-text text-darken-4"><a><i class="material-icons right">more_vert</i></span></a><!-- increase the size of the active area -->
+			      <p><a href="#">e-book</a></p>
+			      <p><a href="#">Sources</a></p>
+
+			    </div>
+			    <div class="card-reveal">
+			      <span class="card-title grey-text text-darken-4">Graph 1<i class="material-icons right">close</i></span>
+			      <p>Would you like to download or share this graph?</p>
+			       <a href="#" id="png_DL">PNG</a>
+			        <a href="/csv">CSV</a>
+			         <a href="/svg">SVG</a>
+			    </div>
+			</div>
+
+		</div>
+
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<!-- d3 -->
+		<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	    <!-- <script src="my_d3.js"></script> -->
+	     
+	    <script src="http://dimplejs.org/dist/dimple.v2.1.6.min.js"></script>
+		<script src="my_dim.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+		<script src="libs/rgbcolor.js"></script>
+		<script src="libs/canvg.js"></script>
+		<script src="libs/svgenie.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<!--<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script> -->
+	</body>
+</html>
