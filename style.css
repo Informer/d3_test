@@ -1,0 +1,23 @@
+/* 
+ 
+ My styles
+
+*/
+.card{
+	width:350px;
+}
+.card-image{
+	
+	background-color: #FB5621;
+}
+
+#graph svg{
+	background-color: #FB5621;
+}
+
+.dimple-bar{
+
+	border-radius:20px;
+	
+}
+
